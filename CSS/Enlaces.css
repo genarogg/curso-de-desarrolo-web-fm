@@ -1,0 +1,27 @@
+a{
+	text-decoration: none;
+	font-family: lato;
+	font-size: 25px;
+}
+/*Estado cuado se pasa el mause por ensima*/
+a:hover{
+	background: #f9a03f;
+	color: #fff;
+}
+
+/*Enlace visitado*/
+a:link{
+	text-decoration: none;
+	color: #1dd071;
+}
+
+/*Enlaces ya visitados*/
+a:visited{
+	color: #ccc;
+}
+
+/*Al darle click al enlace*/
+a:active{
+	text-decoration: underline;
+	color: #251373;
+}
