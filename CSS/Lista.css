@@ -1,0 +1,13 @@
+/**{
+    padding:0;
+    margin:0;
+}*/
+/*
+ul,ol{
+    list-style: none;
+}*/
+
+ul{
+    list-style: circle; /*circle / squere*/
+    /*list-style-image: url("");*/ /*Para Imagenes*/
+}
