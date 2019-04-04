@@ -1,0 +1,45 @@
+@font-face{
+    font-family: "Lato negrita";
+    src:url("./fuentes/Lato-Black.ttf");
+}
+@font-face{
+    font-family: "Lato negrita italica";
+    src:url("./fuentes/Lato-BlackItalic.ttf");
+}
+@font-face{
+    font-family: "Lato bold";
+    src:url("./fuentes/Lato-Bold.ttf");
+}
+@font-face{
+    font-family: "Lato Hairline";
+    src:url("./fuentes/Lato-Hairline.ttf");
+}
+@font-face{
+    font-family: "Lato Italic";
+    src:url("./fuentes/Lato-Italic.ttf");
+}
+@font-face{
+    font-family: "Lato Light";
+    src:url("./fuentes/Lato-Light.ttf");
+}
+@font-face{
+    font-family: "Lato Regular";
+    src:url("./fuentes/Lato-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Lato BoldItalic";
+    src:url("./fuentes/Lato-BoldItalic.ttf");
+}
+@font-face{
+    font-family: "Lato BoldItalic";
+    src:url("./fuentes/Lato-BoldItalic.ttf");
+}
+@font-face{
+    font-family: "Lato HairlineItalic";
+    src:url("./fuentes/Lato-HairlineItalic.ttf");
+}
+
+body{
+    font-family: "Lato Light";
+}
