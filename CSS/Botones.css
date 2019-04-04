@@ -1,0 +1,51 @@
+body{
+    background-color: #f2f2f2;
+    font-family: Lato;
+
+}
+
+div{
+    margin: 20px 0px;
+}
+
+.btn{
+    background-color: #32031f;
+    color:#fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.bordes{
+    border-radius: 3px;
+}
+
+.btn:hover{
+    opacity: .8;
+}
+
+.Pequeño{
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: #E571B6FF;
+}
+
+.Mediano{
+    font-size: 16px;
+    padding: 15px 20px;
+    background-color: #2C71B6FF;
+}
+
+.Grande{
+    font-size: 18px;
+    padding: 20px 25px;
+    background-color: #5AC365FF;
+}
+
+.ExtraGrande{
+    font-size: 20px;
+    padding: 25px 30px;
+    background-color: #F0AD67FF;
+}
