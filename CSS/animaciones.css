@@ -1,0 +1,43 @@
+@keyframes colores{
+    /*from{
+        background-color: #9eb3c2;
+    }
+    to{
+       background-color: #21295c; 
+    }*/
+
+    0%{background-color:#9eb3c2; 
+       border-radius: 10%;}
+    25%{background-color:#1c7293;
+        border-radius: 25%;}
+    50%{background-color:#065a82;
+        border-radius: 50%;}
+    75%{background-color:#1b3b6f;
+        border-radius: 30%;}
+        
+    100%{background-color:#21295c;
+         border-radius: 100%;}
+   
+    75%{background-color:#1b3b6f;
+        border-radius: 75%;}
+    50%{background-color:#065a82;
+        border-radius: 50%;}
+    25%{background-color:#1c7293;
+        border-radius: 25%;}
+        
+    0%{background-color:#9eb3c2;
+         border-radius: 10%;}
+}
+
+.caja{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    animation-name: colores;
+    animation-duration: 700ms;
+    animation-iteration-count: infinite;
+}
+
+.caja:hover{
+      
+}
