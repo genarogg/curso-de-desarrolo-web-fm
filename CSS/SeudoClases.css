@@ -1,0 +1,44 @@
+body{
+	font-family: Lato;
+}
+
+a{
+	background-color: #32ffa7;
+	padding: 20px 30px;
+	display: inline-block;
+	font-size: 20px;
+	color: #fff;
+}
+
+a:hover{
+	background-color: #009ddc;
+	padding: 25px 35px;
+}
+
+a:active{
+	background-color: #000;
+}
+
+a:visited{
+	background-color: #ccc;
+}
+
+div{
+	width: 500px;
+}
+
+div p:hover{
+	background-color: #ffc
+}
+
+div p:first-line{
+	background-color: #3a3a3a;
+	color: #fff;
+	font-size: 20px;
+}
+
+div p:nth-child(2){
+	background-color: #009ddc;
+	color: #fff;
+	padding: 7px;
+}
