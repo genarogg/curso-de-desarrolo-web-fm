@@ -1,0 +1,23 @@
+body{
+	font-family: Lato, Arial, Sans-serif;
+}
+
+p{
+	letter-spacing: 2px;
+	line-height: 20px;
+	text-align: justify;
+
+
+}
+
+h1{
+	font-family: "Times New Roman", arial;
+	text-align: left;
+	font-size: 28px;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #9f5432;
+	font-weight: normal;
+	text-decoration: underline;
+
+}
