@@ -1,0 +1,29 @@
+body{
+    background-color: #f2f2f2;
+    font-style: Lato;
+}
+
+h1, p, div{
+    background-color: #ccc;
+    padding: 10px;
+    width: 500px;
+}
+
+a{
+    display: inline-block;
+    color:#fff;
+    background-color: #000;
+    padding: 10px;
+}
+
+/*
+    Elementos "inline"
+    a, span, img, i, small, cite, code,
+    em, strong, br, script, button,
+    input, label, select, textarea.
+
+    Elementos "block"
+    div,article, selection, header,
+    footer, aside, table, p, video,
+    ul, ol, h1, h2, h3, h4, h5, h6.
+*/
