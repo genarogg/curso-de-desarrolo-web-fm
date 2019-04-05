@@ -1,0 +1,60 @@
+body{
+    font-family: Lato;
+    background-color: #f2f2f2;
+}
+
+div, a{
+    background-color: #ccc;
+}
+
+a{
+    /*display: none;
+    visibility: hidden;*/
+    background-color: #246eb6;
+    color:#fff;
+    padding: 20px;
+    display: inline-block;
+}
+
+.caja{
+    color:#000;
+    background-color: #4fb560;
+    margin: 20px 0;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+}
+
+.contenedor{
+    width: 600px;
+    background-color: #ccc;
+    margin: 20px 0;
+    overflow:hidden;
+}
+
+.izq{
+    float: left;
+}
+
+.der{ 
+    float: right;
+}
+
+.contenedor2 .caja{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.azul{
+    background-color: #009ddc;
+    z-index: 11
+}
+
+.gris{
+    background-color: #32021f;
+    left: 50px;
+    bottom: 80px;
+    z-index: 10;
+}
+
+/* display: inline / block / none/ inline-block / flex*/
