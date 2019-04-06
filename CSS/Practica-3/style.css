@@ -15,5 +15,10 @@ body{
     margin: 20px auto;
 }
 
+header{
+    background-color: #30323d;
+    padding: 20px;
+    color: #fff;
+}
 
 
