@@ -21,4 +21,11 @@ header{
     color: #fff;
 }
 
+.main{
+    background-color: #fff;
+    padding: 20px;
+    width: 70%;
+    float:left;
+}
+
 
