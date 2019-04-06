@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Lato;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    background-color: #CE3091FF;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul li{
+    display: inline-block;
+    text-align: center;
+}
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+ul li a:hover{
+    
+    background-color: #3339CBFF;
+}
