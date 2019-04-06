@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2f2f2;
+    font-family: Lato;
+}
+
+.contenedor{
+    max-width: 1200px;
+    background-color: #ccc;
+    margin: 20px auto;
+}
+
+
+
