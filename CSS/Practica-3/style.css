@@ -28,4 +28,11 @@ header{
     float:left;
 }
 
+aside{
+    background-color:#e8c547;
+    color: #fff;
+    padding: 20px;
+    width: 30%;
+    float: left;
+}
 
