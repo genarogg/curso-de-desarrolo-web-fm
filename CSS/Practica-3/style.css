@@ -36,3 +36,11 @@ aside{
     float: left;
 }
 
+footer{
+    clear: both;
+    background-color: #f23;
+    color: #fff;
+    padding:20px;
+    text-align: center;
+
+}
