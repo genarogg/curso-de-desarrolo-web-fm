@@ -27,7 +27,19 @@
         var sexo = formulario.sexo;
         var terminos = formulario.terminos;
 
-        
+        function validar(e){
+            //Validacion del nombre
+            if(this.nombre.value > 18){
+                alert("Maximo de caracteres permitidos");
+                e.preventDefault();
+            }
+            else if(this.nombre.value == ""){
+                alert("Ingresa un nombre");
+            }
+            
+            
+        }
+        formulario.addEventListener("submit",validar)
     </script>
 </body>
 </html>
