@@ -36,7 +36,12 @@
             else if(this.nombre.value == ""){
                 alert("Ingresa un nombre");
             }
-            
+            //Validacion de sexo
+            if(this.sexo[0].checked == false && sexo[1].checked == false){
+                alert("Por favor dinos tu sexo");
+                e.preventDefault();
+
+            }
             
         }
         formulario.addEventListener("submit",validar)
