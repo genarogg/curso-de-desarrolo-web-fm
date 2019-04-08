@@ -18,7 +18,9 @@
             font-family: Arial;
         }
 
-        
+        .negro{
+            background-color: #000;
+        }
     </style>
 </head>
 <body>
@@ -28,7 +30,15 @@
     <div class="caja">4</div>
 
     <script>
-        
+        var cajas = document.getElementsByClassName('caja');
+
+        function color(){
+            this.classList.toggle("negro");
+        }
+
+        for(var i= 0; i< cajas.length; i++){
+            cajas[i].addEventListener("click", color);
+        }
     </script>
 </body>
 </html>
