@@ -42,7 +42,11 @@
                 e.preventDefault();
 
             }
-            
+            //Validacion de terminos y condiciones
+            if(!this.terminos.checked){
+                alert("Por favor acepta los terminos y  condiciones");
+                e.preventDefault();
+            }
         }
         formulario.addEventListener("submit",validar)
     </script>
