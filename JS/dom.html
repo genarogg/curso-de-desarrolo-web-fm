@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>introduccion-al-dom</title>
     <style>
-        body{
-            background-color: #f2f2f2;
-            font-family: arial;
+      body {
+        background-color: #f2f2f2;
+        font-family: arial;
+      }
 
-        }
+      .contenedor {
+        width: 400px;
+        padding: 20px;
+      }
+      .caja {
+        padding: 20px 10px;
+        text-align: center;
+        margin: 10px 0;
+        background-color: #226fc1;
+        font-size: #fff;
+      }
 
-        .contenedor{
-            width: 400px;
-            padding: 20px;
-        }
-        .caja{
-            padding: 20px 10px;
-            text-align: center;
-            margin: 10px 0;
-            background-color: #226fc1;
-            font-size: #fff;
-        }
-
-        .naranja{
-            background-color: #f9a03f;
-        }
+      .naranja {
+        background-color: #f9a03f;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <section class="contenedor" id="contenedor">
-        <div class="caja" id="primeraCaja">1 - Lorem impsum</div>
-        <div class="caja">2 - Lorem impsum</div>
-        <div class="caja">3 - Lorem impsum</div>
-        <div class="caja">4 - Lorem impsum</div>
+      <div class="caja" id="primeraCaja">1 - Lorem impsum</div>
+      <div class="caja">2 - Lorem impsum</div>
+      <div class="caja">3 - Lorem impsum</div>
+      <div class="caja">4 - Lorem impsum</div>
     </section>
     <script>
-        
+        /*var cajas = document.getElementsByTagName('div');
+        /*var caja = document.getElementsByClassName('caja');*/
+            /*var id = document.getElementById('primeraCaja');
+        cajas[0].textContent = "hola Mundo";
+        cajas[0].innerHTML = "<h1>hola</h1>";*/
+
+            /*
+        var nuevoElemento = document.createElement("div");
+        var crearNodo = document.createTextNode("hola mundo");
+
+        nuevoElemento.appendChild(crearNodo);
+        nuevoElemento.setAttribute("class", "caja");
+
+        var contenedor = document.getElementById('contenedor');
+
+        contenedor.appendChild(nuevoElemento);
+
+
+        nuevoElemento.id = "primera";
+        nuevoElemento.className = "caja naranja";
+
+
+        var padre = cajas[0].parentNote;
+
+        padre.replaceChild(nuevoElemento, cajas[0]);
+
+        padre.removeChild(cajas[3]);
+        */
     </script>
-</body>
+  </body>
 </html>
