@@ -147,7 +147,13 @@
           terminos = formulario.terminos,
           error = document.getElementById("error");
 
-        
+        function validarNombre(e) {
+          if (nombre.value == "" || nombre.value == null) {
+            
+          } else {
+            error.style.display = "none";
+          }
+        }
         
         
         
