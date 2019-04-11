@@ -159,7 +159,10 @@
         }
         function validarCorreo(e) {
           if (correo.value == "" || correo.value == null) {
-           
+            console.log("completa el correo");
+            error.style.display = "block";
+            error.innerHTML += "<li>Por favor completa el correo</li>";
+            e.preventDefault();
           } else {
             error.style.display = "none";
           }
