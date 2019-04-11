@@ -179,7 +179,10 @@
         }
         function validarTerminos(e) {
           if (terminos.checked == false) {
-           
+            console.log("seleccione el terminos");
+            error.style.display = "block";
+            error.innerHTML += "<li>Por favor completa el terminos</li>";
+            e.preventDefault();
           } else {
             error.style.display = "none";
           }
