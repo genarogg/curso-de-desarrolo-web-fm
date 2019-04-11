@@ -149,7 +149,10 @@
 
         function validarNombre(e) {
           if (nombre.value == "" || nombre.value == null) {
-            
+            console.log("completa el nombre");
+            error.style.display = "block";
+            error.innerHTML += "<li>Por favor completa el nombre</li>";
+            e.preventDefault();
           } else {
             error.style.display = "none";
           }
