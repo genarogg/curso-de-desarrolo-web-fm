@@ -169,7 +169,10 @@
         }
         function validarSexo(e) {
           if (sexo.value == "" || sexo.value == null) {
-            
+            console.log("seleccione el sexo");
+            error.style.display = "block";
+            error.innerHTML += "<li>Por favor completa el sexo</li>";
+            e.preventDefault();
           } else {
             error.style.display = "none";
           }
