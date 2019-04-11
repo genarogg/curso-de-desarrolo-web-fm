@@ -137,5 +137,24 @@
         <input type="submit" class="btn" value="Registrate" />
       </form>
     </div>
+
+    <script>
+      (function() {
+        var formulario = document.getElementById("formulario"),
+          nombre = formulario.nombre,
+          correo = formulario.correo,
+          sexo = formulario.sexo,
+          terminos = formulario.terminos,
+          error = document.getElementById("error");
+
+        
+        
+        
+        
+
+        
+        formulario.addEventListener("submit", validarformulario);
+      })();
+    </script>
   </body>
 </html>
