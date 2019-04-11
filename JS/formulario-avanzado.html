@@ -188,7 +188,13 @@
           }
         }
 
-        
+        function validarformulario(e) {
+          error.innerHTML = "";
+          validarNombre(e);
+          validarCorreo(e);
+          validarSexo(e);
+          validarTerminos(e);
+        }
         formulario.addEventListener("submit", validarformulario);
       })();
     </script>
