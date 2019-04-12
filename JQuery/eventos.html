@@ -10,6 +10,28 @@
     <button id="boton">Ejecutar</button>
     <a href="genarogg.tk">genarogg.tk</a>
     <script src="jquery-3.4.1.min.js"></script>
-    
+    <script>
+      $(document).ready(function() {
+        var boton = $("#boton");
+
+        function alerta() {
+          alert("Hola Mundo");
+        }
+
+        /*Tipos de eventos*/
+
+        /*boton.click(alerta);*/
+        /*boton.on("click", alerta);*/
+        /*boton.on("mouseenter", alerta)*/
+        /*boton.on("mouseleave", alerta);*/
+
+        /*Remover eventos*/
+        /*boton.off("click");*/
+
+        $("a").on("click", function(e) {
+          e.preventDefault();
+        });
+      });
+    </script>
   </body>
 </html>
