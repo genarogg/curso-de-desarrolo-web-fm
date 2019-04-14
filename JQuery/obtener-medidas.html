@@ -27,9 +27,17 @@
         var titulo = $("#titulo");
         var info = $("#info");
 
-        
+        info.append("Ancho: " + titulo.width() + "<br>");
+        info.append("Ancho interno: " + titulo.innerWidth() + "<br>");
 
-       
+        info.append("Ancho externo: " + titulo.outerWidth() + "<br>");
+        info.append(
+          "Ancho externo con padding y margin: " +
+            titulo.outerWidth(true) +
+            "<br>"
+        );
+
+        info.append("alto : " + titulo.height() + "<br>");
       });
     </script>
   </body>
