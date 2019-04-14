@@ -12,6 +12,20 @@
     <button class="boton" id="boton">Lorem Ipsum</button>
 
     <script src="jquery-3.4.1.min.js"></script>
-    
+    <script>
+      $(document).ready(function() {
+        $("#boton").on("click", function() {
+          /*$(this).addClass('naranja');*/
+          /*$(this).removeClass('boton');*/
+
+          $(this).toggleClass("naranja");
+
+          /*$(this).css({
+            "height" : "100px",
+            "width" : "100px"
+        });*/
+        });
+      });
+    </script>
   </body>
 </html>
