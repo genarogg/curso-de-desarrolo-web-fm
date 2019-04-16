@@ -21,5 +21,16 @@ body {
       color: $naranja;
     }
   }
-  
+  div {
+    text-align: center;
+    a {
+      text-decoration: none;
+      font-size: 20px;
+      color: $naranja;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
