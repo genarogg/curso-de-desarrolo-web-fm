@@ -6,7 +6,25 @@
     <title>Animaciones</title>
     <link rel="stylesheet" href="" />
     <script src="jquery-3.4.1.min.js"></script>
-    <script src="animacion.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#boton").on("click", function() {
+          $("#caja").animate(
+            {
+              width: "300px",
+              opacity: ".2"
+            },
+            500,
+            function() {
+              $("#caja").animate({
+                width: "150px",
+                opacity: "1"
+              });
+            }
+          );
+        });
+      });
+    </script>
 
     <style>
       .caja {
