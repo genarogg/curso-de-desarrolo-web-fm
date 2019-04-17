@@ -1,0 +1,26 @@
+@import "generales";
+
+header{
+	background-color: #0d2c44;
+	color:#fff;
+}
+
+.main{
+	background-color: #fff;
+	width: 70%;
+	float: left;
+}
+
+aside{
+	background-color: #bb1f35;
+	color:#fff;
+	width: 30%;
+	float: left;
+}
+
+footer{
+	clear: both;
+	width: 100%;
+	background-color: #0d2c44;
+	color: #fff;
+}
